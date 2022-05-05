@@ -1,5 +1,6 @@
 import profile from "./profile.jpg";
 import "./App.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
   return (
@@ -12,11 +13,13 @@ function App() {
           iamdarshangowda@outlook.com
         </a>
         <div className="social">
-          <buttons className="git">
-            <i class="fa-brands fa-github"></i>
-          </buttons>
-          <button className="linked">
-            <i class="fa-brands fa-linkedin"></i>
+          <button className="git button">
+            <FaGithub size="1.3em" className="giticon" />
+            <span>GitHub</span>
+          </button>
+          <button className="linked button">
+            <FaLinkedin size="1.3em" className="linkicon" />
+            <span>LinkedIn</span>
           </button>
         </div>
       </header>
