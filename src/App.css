@@ -1,14 +1,13 @@
 .App {
   text-align: center;
-  width: 550px;
   margin: 0 auto;
   position: relative;
-  background-color: #23252c;
+  width: 312px;
+  background-color: #1a1b21;
+  border-radius: 10px;
 }
 
 .App-header {
-  background-color: #1a1b21;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -22,6 +21,8 @@
   width: 312px;
   position: absolute;
   top: 0px;
+  left: 0px;
+  right: 0px;
   border-radius: 8px;
 }
 
@@ -55,7 +56,7 @@
 .social {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .button {
@@ -70,6 +71,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 8px;
+  cursor: pointer;
 }
 
 .linked {
@@ -79,4 +82,37 @@
 .giticon,
 .linkicon {
   padding-right: 10px;
+}
+
+.main {
+  background: #1a1b21;
+  width: 247px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about > h4,
+.skills > h4 {
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.para {
+  margin-top: 5px;
+  color: #dcdcdc;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+footer {
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer > a {
+  margin: 0px 20px;
 }
